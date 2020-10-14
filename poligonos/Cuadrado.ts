@@ -1,20 +1,20 @@
 class Cuadrado{
-    private lado: number
+    private _lado: number
 
     public constructor(lado : number){
-        this.lado = lado
+        this._lado = lado
     }
 
-    public getLado(){
-        return this.lado
+    public get lado(){
+        return this._lado
     }
 
     public getPerimetro(){
-        return this.lado*4
+        return this._lado*4
     }
 
     public getArea(){
-        return (this.lado*this.lado)
+        return (this._lado*this._lado)
     }
 
 }

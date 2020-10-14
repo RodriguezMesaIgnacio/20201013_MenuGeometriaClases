@@ -1,26 +1,26 @@
 class Rectangulo{
-    private base: number
-    private altura:number
+    private _base: number
+    private _altura:number
 
     public constructor(base : number, altura:number){
-        this.base = base
-        this.altura = altura
+        this._base = base
+        this._altura = altura
     }
 
-    public getBase(){
-        return this.base
+    public get base(){
+        return this._base
     }
 
-    public getAltura(){
-        return this.altura
+    public get altura(){
+        return this._altura
     }
 
     public getPerimetro(){
-        return this.base*2+this.altura*2
+        return this._base*2+this._altura*2
     }
 
     public getArea(){
-        return (this.base*this.altura)
+        return (this._base*this._altura)
     }
 
 }

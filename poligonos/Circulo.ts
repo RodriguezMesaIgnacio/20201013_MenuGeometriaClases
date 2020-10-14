@@ -1,20 +1,20 @@
 class Circulo{
-    private radio:number
+    private _radio:number
 
     public constructor(radio:number){
-        this.radio = radio
+        this._radio = radio
     }
 
-    public getRadio(){
-        return this.radio
+    public get radio(){
+        return this._radio
     }
 
     public getPerimetro(){
-        return 2*Math.PI*this.radio
+        return 2*Math.PI*this._radio
     }
 
     public getArea(){
-        return Math.PI*(this.radio*this.radio)
+        return Math.PI*(this._radio*this._radio)
     }
 
 }   
