@@ -47,7 +47,7 @@ const main = async () => {
                 console.log("Área del rectángulo="+ rectangulo.getArea())
                 break
             case 0:
-                console.log('\nAdios')
+                console.log('\n--ADIÓS--')
                 break
             default:
                 console.log("Opción incorrecta")

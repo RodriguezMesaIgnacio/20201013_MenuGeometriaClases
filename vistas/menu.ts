@@ -8,6 +8,6 @@ export const menu = async () => {
     console.log('3.- CÍRCULO')
     console.log('4.- RECTÁNGULO')
     console.log('0.- SALIR')
-    n = parseInt( await leerTeclado('opción: ') )
+    n = parseInt( await leerTeclado('--OPCIÓN--: ') )
     return n
 }
