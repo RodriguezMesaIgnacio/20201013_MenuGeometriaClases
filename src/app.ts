@@ -17,7 +17,7 @@ const main = async () => {
                 altura =  parseInt( await leerTeclado('Introduzca la altura del triángulo'))
                 lado1 =  parseInt( await leerTeclado('Introduzca otro lado del triángulo'))
                 lado2 =  parseInt( await leerTeclado('Introduzca el último lado del triángulo'))
-                let triangulo = new Triangulo(base,altura,lado1,lado2)
+                let triangulo = new Triangulo(base,lado1,lado2,altura)
                 console.log("Perímetro del triángulo="+triangulo.getPerimetro())
                 console.log("Área del triángulo="+triangulo.getArea())
                 break
